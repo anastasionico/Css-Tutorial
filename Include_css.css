@@ -1,0 +1,32 @@
+																																			/*
+The following is related with the tutorial present on http://www.anastasionico.uk/feeds/21/coding 
+Click to get more information
+
+CSS lesson 1:
+	How to include your css into the html pages
+	
+	METHOD 1 : external link
+																																			*/	
+		<link rel="stylesheet" type="text/css" href="style.css"/>																								
+																																			/*
+		This command includes the css file "style.css" inside the page, It should be placed within the head,It is the most recommended method
+		
+	
+	
+	METHOD 2: internal css																															*/
+	
+		<style type="text/css">
+			p {color:#f00;}
+		</style>
+																																			/*
+		the tag style insert the CSS code inside the current page,It also has to be placed within the head tag																			
+																																			
+			
+	MATHOD 3: inline css		
+																																			*/
+		<p style="color:#f00;"></p>	
+																																			/*
+		the tag style insert the CSS attributes and values directly from the tag, it's the method with most priority among the three but is 
+		the less recommended becouse if you need to change the style of a tag you have to modify them one by one
+																																			*/
+			
